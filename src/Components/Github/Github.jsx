@@ -9,7 +9,7 @@ function Github() {
   )
 }
 export const gitloader = async()=>{
- const response=await fetch('https://api.github.com/users/Sid541')
+ const response=await fetch('https://api.github.com/users/hiteshchoudhary')
  return response.json();
 }
 
